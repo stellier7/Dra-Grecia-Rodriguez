@@ -12,8 +12,8 @@ Coloca los archivos de imagen en:
 
 ```
 assets/images/
-  hero.jpg              ← foto principal del hero
-  dentist.jpg           ← foto de la doctora (o renombra y actualiza config.js)
+  hero.jpeg            ← foto principal del hero
+  dentist.jpeg         ← foto de la doctora
   logo.png / logo.svg   ← logo del consultorio (opcional; config.js → branding.logoUrl)
   gallery/
     smile-01.jpg …      ← fotos de galería / antes y después

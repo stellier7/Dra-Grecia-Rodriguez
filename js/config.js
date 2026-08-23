@@ -74,7 +74,7 @@ const config = {
     softBg: "",
     // TODO: Add practice logo — drop logo.png or logo.svg in assets/images/ and set path here
     logoUrl: "",
-    heroImageUrl: "assets/images/hero.png",
+    heroImageUrl: "assets/images/hero.jpeg",
   },
 
   // ---------------------------------------------------------------------------
