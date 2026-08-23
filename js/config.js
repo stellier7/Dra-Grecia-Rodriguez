@@ -74,8 +74,7 @@ const config = {
     softBg: "",
     // TODO: Add practice logo — drop logo.png or logo.svg in assets/images/ and set path here
     logoUrl: "",
-    // TODO: Replace with client hero photo — drop hero.jpg in assets/images/
-    heroImageUrl: "assets/images/hero.jpg",
+    heroImageUrl: "assets/images/hero.png",
   },
 
   // ---------------------------------------------------------------------------
@@ -256,8 +255,7 @@ const config = {
         en: "Dr. Grecia Rodríguez specializes in oral rehabilitation and implantology, helping patients restore function, confidence, and a youthful smile with personalized treatment plans.",
         es: "La Dra. Grecia Rodríguez se especializa en rehabilitación oral e implantología, ayudando a sus pacientes a recuperar función, confianza y una sonrisa rejuvenecida con planes de tratamiento personalizados.",
       },
-      // TODO: Replace with client doctor photo — drop dentist.jpg (or grecia-rodriguez.jpg) in assets/images/
-      photoUrl: "assets/images/dentist.jpg",
+      photoUrl: "assets/images/dentist.jpeg",
     },
   ],
 
@@ -311,13 +309,14 @@ const config = {
   // ---------------------------------------------------------------------------
   // SMILE GALLERY
   // ---------------------------------------------------------------------------
-  // TODO: Replace placeholder gallery images with client before/after photos in assets/images/gallery/
   gallery: [
-    "assets/images/gallery/smile-01.jpg",
-    "assets/images/gallery/smile-02.jpg",
-    "assets/images/gallery/smile-03.jpg",
-    "assets/images/gallery/smile-04.jpg",
-    "assets/images/gallery/smile-05.jpg",
+    "assets/images/gallery/IMG_0381.jpeg",
+    "assets/images/gallery/IMG_0393.jpeg",
+    "assets/images/gallery/IMG_0394.jpeg",
+    "assets/images/gallery/IMG_0395.jpeg",
+    "assets/images/gallery/IMG_0396.jpeg",
+    "assets/images/gallery/IMG_0397.jpeg",
+    "assets/images/gallery/IMG_0399.jpeg",
   ],
 
   // ---------------------------------------------------------------------------
