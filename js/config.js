@@ -105,7 +105,7 @@ const config = {
       },
       sections: {
         services: "Our Services",
-        servicesLead: "Oral rehabilitation and cosmetic treatments tailored to your smile.",
+        servicesLead: "Oral rehabilitation, implants, and aesthetic treatments to renew your smile.",
         dentists: "Meet the Doctor",
         dentistsLead: "Specialized care in oral rehabilitation and implantology.",
         gallery: "Smile Gallery",
@@ -184,7 +184,7 @@ const config = {
       },
       sections: {
         services: "Nuestros Servicios",
-        servicesLead: "Rehabilitación oral y tratamientos estéticos pensados para tu sonrisa.",
+        servicesLead: "Rehabilitación oral, implantes y tratamientos estéticos para renovar tu sonrisa.",
         dentists: "Conoce a la Doctora",
         dentistsLead: "Atención especializada en rehabilitación oral e implantología.",
         gallery: "Galería de Sonrisas",
@@ -266,18 +266,122 @@ const config = {
     {
       name: { en: "Dental Implants", es: "Implantes Dentales" },
       description: {
-        en: "Restore missing teeth with durable, natural-looking implants planned for comfort, function, and long-term oral health.",
-        es: "Recupera dientes perdidos con implantes duraderos y de aspecto natural, planificados para comodidad, función y salud bucal a largo plazo.",
+        en: "Permanent titanium roots that replace missing teeth and restore chewing function, facial support, and a natural-looking smile.",
+        es: "Raíces de titanio permanentes que reemplazan dientes perdidos y recuperan la función masticatoria, el soporte facial y una sonrisa de aspecto natural.",
       },
       icon: "implants",
     },
     {
-      name: { en: "Cosmetic Dentistry", es: "Odontología Cosmética" },
+      name: { en: "Implant-Supported Rehabilitation", es: "Rehabilitación sobre Implantes" },
       description: {
-        en: "Aesthetic treatments designed to rejuvenate your smile — from whitening to full smile makeovers with natural, harmonious results.",
-        es: "Tratamientos estéticos diseñados para rejuvenecer tu sonrisa — desde blanqueamiento hasta rehabilitaciones completas con resultados naturales y armoniosos.",
+        en: "Custom crowns, bridges, or full-arch prosthetics anchored to implants for stable, long-lasting oral rehabilitation.",
+        es: "Coronas, puentes o prótesis de arco completo personalizadas sobre implantes para una rehabilitación oral estable y duradera.",
+      },
+      icon: "implants",
+    },
+    {
+      name: { en: "Dental Crowns", es: "Coronas Dentales" },
+      description: {
+        en: "Protect and restore damaged or weakened teeth with custom crowns that match your natural color, shape, and bite.",
+        es: "Protege y restaura dientes dañados o debilitados con coronas personalizadas que combinan con tu color, forma y mordida natural.",
+      },
+      icon: "general",
+    },
+    {
+      name: { en: "Fixed Bridges", es: "Puentes Fijos" },
+      description: {
+        en: "Replace one or more missing teeth with a fixed bridge that restores your smile and prevents neighboring teeth from shifting.",
+        es: "Reemplaza uno o más dientes perdidos con un puente fijo que restaura tu sonrisa y evita que los dientes vecinos se desplacen.",
+      },
+      icon: "general",
+    },
+    {
+      name: { en: "Dental Veneers", es: "Carillas Dentales" },
+      description: {
+        en: "Ultra-thin porcelain or composite shells that correct chips, gaps, discoloration, and minor misalignment for a flawless smile.",
+        es: "Laminas ultrafinas de porcelana o composite que corrigen fracturas, espacios, decoloración y leves desalineaciones para una sonrisa impecable.",
       },
       icon: "cosmetic",
+    },
+    {
+      name: { en: "Removable Prosthetics", es: "Prótesis Removibles" },
+      description: {
+        en: "Comfortable partial or complete dentures designed for a secure fit, natural appearance, and restored daily function.",
+        es: "Prótesis parciales o totales removibles, cómodas y diseñadas para un ajuste seguro, aspecto natural y función diaria recuperada.",
+      },
+      icon: "general",
+    },
+    {
+      name: { en: "Full Mouth Rehabilitation", es: "Rehabilitaciones Completas" },
+      description: {
+        en: "Comprehensive treatment plans that rebuild worn, missing, or damaged teeth to restore health, function, and facial harmony.",
+        es: "Planes de tratamiento integrales que reconstruyen dientes desgastados, ausentes o dañados para recuperar salud, función y armonía facial.",
+      },
+      icon: "implants",
+    },
+    {
+      name: { en: "Teeth Whitening", es: "Blanqueamiento Dental" },
+      description: {
+        en: "Professional whitening to brighten stained or dull teeth safely, with results that look natural — not overdone.",
+        es: "Blanqueamiento profesional para aclarar dientes manchados o opacos de forma segura, con resultados naturales — nada exagerado.",
+      },
+      icon: "whitening",
+    },
+    {
+      name: { en: "Aesthetic Restorations", es: "Restauraciones Estéticas" },
+      description: {
+        en: "Tooth-colored fillings and restorations that repair decay or damage while blending seamlessly with your natural smile.",
+        es: "Resinas y restauraciones del color del diente que reparan caries o daños integrándose de forma natural con tu sonrisa.",
+      },
+      icon: "cosmetic",
+    },
+    {
+      name: { en: "Smile Design", es: "Diseño de Sonrisa" },
+      description: {
+        en: "A personalized plan — often with digital preview — to shape the size, color, and proportion of your ideal smile.",
+        es: "Un plan personalizado — a menudo con vista previa digital — para definir el tamaño, color y proporción de tu sonrisa ideal.",
+      },
+      icon: "cosmetic",
+    },
+    {
+      name: { en: "Inlays & Onlays", es: "Incrustaciones" },
+      description: {
+        en: "Precision-crafted restorations for moderate tooth damage — stronger than a filling and more conservative than a full crown.",
+        es: "Restauraciones de precisión para daño dental moderado — más resistentes que una resina y más conservadoras que una corona completa.",
+      },
+      icon: "general",
+    },
+    {
+      name: { en: "Post–Root Canal Reconstruction", es: "Reconstrucción Dental Post-Endodoncia" },
+      description: {
+        en: "Rebuild and protect teeth after root canal therapy with durable restorations that restore strength and appearance.",
+        es: "Reconstruye y protege dientes después de un tratamiento de conducto con restauraciones duraderas que devuelven fuerza y estética.",
+      },
+      icon: "general",
+    },
+    {
+      name: { en: "Occlusal Adjustment", es: "Ajuste Oclusal" },
+      description: {
+        en: "Fine-tune your bite to relieve uneven pressure, jaw discomfort, and wear caused by misaligned contact between teeth.",
+        es: "Ajusta finamente tu mordida para aliviar presión desigual, molestias mandibulares y desgaste por contactos dentales incorrectos.",
+      },
+      icon: "general",
+    },
+    {
+      name: { en: "Aesthetic Recontouring", es: "Recontorneado Estético" },
+      description: {
+        en: "Subtle reshaping of tooth edges and surfaces to soften irregular contours and improve the balance of your smile.",
+        es: "Remodelado sutil de bordes y superficies dentales para suavizar contornos irregulares y mejorar el equilibrio de tu sonrisa.",
+      },
+      icon: "cosmetic",
+    },
+    {
+      name: { en: "Aesthetic Cleaning & Polishing", es: "Limpieza y Pulido Estético" },
+      description: {
+        en: "Professional cleaning and polishing to remove plaque and surface stains, leaving teeth smooth, bright, and refreshed.",
+        es: "Limpieza y pulido profesional para eliminar placa y manchas superficiales, dejando los dientes lisos, luminosos y renovados.",
+      },
+      icon: "cleaning",
     },
   ],
 
