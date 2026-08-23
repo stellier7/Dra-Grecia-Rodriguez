@@ -8,8 +8,8 @@ These are the only images shipped with the template. Replace them per client.
 
 | File | Used for |
 | --- | --- |
-| `hero.jpg` | Hero background (`branding.heroImageUrl`) |
-| `dentist.jpg` | Dentist photo (`dentists[].photoUrl`) |
+| `hero.jpeg` | Hero background (`branding.heroImageUrl`) |
+| `dentist.jpeg` | Dentist photo (`dentists[].photoUrl`) |
 | `gallery/smile-01.jpg` … `smile-05.jpg` | Smile gallery (`gallery[]`) |
 | `financing/financing-01.svg` | First financing image (`financingImages[0]`) |
 | `financing/financing-02.svg` | Second financing image (`financingImages[1]`) |
